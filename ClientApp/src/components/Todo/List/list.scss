@@ -1,0 +1,11 @@
+.todolist {
+    & > .title {
+        font-size: 28px;
+        margin: 15px 50px;
+        border-bottom: 1px solid black;
+    }
+
+    & > .items {
+        margin: 0 50px;
+    }
+}

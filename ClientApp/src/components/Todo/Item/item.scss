@@ -1,0 +1,25 @@
+.todoitem {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px 0;
+
+    & > .text {
+        max-width: 90%;
+        word-break: break-all;
+    }
+
+    & > .text-line {
+        text-decoration: line-through;
+    }
+
+    & > .btn-group {
+        margin-left: auto;
+
+        & > .btn {
+            margin: 0 5px;
+        }
+    }
+}

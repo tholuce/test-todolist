@@ -1,0 +1,29 @@
+.menu {
+    & > ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        padding: 15px;
+        background: black;
+        color: white;
+
+        & > .title {
+            content: 'todo';
+        }
+
+        & > .right {
+            margin-left: auto;
+        }
+
+        & div {
+            text-decoration: none;
+            color: inherit;
+            cursor: pointer;
+
+            &:hover {
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+        }
+    }   
+}

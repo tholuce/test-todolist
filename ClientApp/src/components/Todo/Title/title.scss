@@ -1,0 +1,9 @@
+.title {
+    & > input {
+        margin-right: 5px;
+    }
+
+    & > input:checked + span {
+        text-decoration: line-through;
+    }
+}
